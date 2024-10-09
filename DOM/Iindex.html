@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina web simple</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenidos a mi pagina web</h1>
+      <p>Este es un sitio web de ejemplo con diferentes etiquetas HTML.</p>
+    </header>
+
+    <section>
+      <h2>Seccion de informacion</h2>
+      <p>
+        Esta seccion contiene algunos elementos de texto y enlaces para que vea
+        como como funciona la estructura HTML
+      </p>
+      <a href="https://www.ejemplo.com" target="_black"
+        >visita este enlace de ejemplo</a
+      >
+    </section>
+
+    <section>
+      <h2 id="tituloDOM">Manipulando el DOM</h2>
+      <p id="contenido">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa
+        necessitatibus voluptatum commodi veritatis, corporis et praesentium
+        repellendus. Est quos velit debitis doloremque, inventore incidunt quas
+        aspernatur voluptates dolor impedit.
+      </p>
+      <a href="https://www.ejemplo.com" target="_black"
+        >visita este enlace de ejemplo</a
+      >
+    </section>
+
+    <section>
+      <p id="p1">Parrafo1</p>
+      <p id="p2">Parrafo2</p>
+      <p id="p3">Parrafo3</p>
+    </section>
+
+    <section>
+      <p id="resultado">Fecha</p>
+      <button onmousedown="verFecha()" onmouseup="quitarFecha()">Fecha</button>
+    </section>
+
+    <section>
+      <label for="dato1">Conversiom de temperaturas</label>
+      <input type="text" name="dato1" , id="dato1" />
+      <br /><br />
+
+      <p id="res">Resultado</p>
+
+      <button onclick="temperatura()">Calcular</button>
+    </section>
+
+    <section class="editores">
+      <ul class="listaeditores">
+        <li class="lista">VisualStudio</li>
+        <li class="Lista">Intellij</li>
+        <li class="Lista">Android Studio</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Formulario de Contacto</h2>
+      <form action="https://www.ejemplo.com/enviar" method="post"></form>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+      <label for="correo">Correo Electronico</label>
+      <input type="email" id="correo" name="correo" required /><br /><br />
+
+      <label for="mensaje">Mensaje</label>
+      <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea
+      ><br /><br />
+
+      <button type="submit">Enviar</button>
+      te
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Mi Pagina Web. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="app.jsx"></script>
+  </body>
+</html>
